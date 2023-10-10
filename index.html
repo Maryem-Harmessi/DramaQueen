@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drama Queen</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
+</head>
+    <link rel="stylesheet" href="styles.css">
+    
+
+<body>
+    <div>
+    <h1 id="ttitle">Drama Queen</h1>
+    <div id="menu">
+        <button id="watchlist">Watchlist</button>
+        <button id="watchedmovies">Watched Movies</button>
+        <button id="categories">Categories</button>
+        <input type="text" id="searchInput" placeholder="Search">
+        <select class="Options" >
+            <option value="title">title</option>
+            <option value="actors">actors</option>
+            <option value="director">director</option>
+            <option value="category">category</option>
+            <option value="streamingService">streamingService</option>
+        </select>
+        <button disabled class="clickclick">Search</button>
+        <button class="sortrating" >Sort By rating</button>
+        <button class="sortdate">Sort By watch date</button>
+    </div>
+        
+    <div id="movies">
+
+    </div>
+</div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
